@@ -1,9 +1,31 @@
-.mynewDiv {
+/* .mynewDiv {
   background-color: #0000ff;
   color: aliceblue;
-}
-.myImg {
+  font-size: 40px;
   width: 50%;
-  height: auto;
-  margin: auto;
+  animation: koko 10s ease-in infinite;
+}
+@keyframes koko {
+  0% {
+    background-color: #0000ff;
+  }
+  20% {
+    background-color: crimson;
+  }
+  50% {
+    background-color: gold;
+  }
+  100% {
+    background-color: greenyellow;
+  }
+} */
+.old_enough {
+  background-color: greenyellow;
+  font-size: 40px;
+  color: blanchedalmond;
+}
+.not_old_enough {
+  background-color: rgb(255, 158, 47);
+  font-size: 40px;
+  color: #fff;
 }
