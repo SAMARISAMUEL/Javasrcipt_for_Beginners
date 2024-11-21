@@ -1,9 +1,16 @@
-.mynewDiv {
-  background-color: #0000ff;
-  color: aliceblue;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
 }
-.myImg {
-  width: 50%;
-  height: auto;
-  margin: auto;
+.navUl {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: green;
+}
+li {
+  text-decoration: none;
+  list-style: none;
 }

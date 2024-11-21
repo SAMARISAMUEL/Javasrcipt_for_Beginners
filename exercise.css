@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.myDiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+  font-weight: 700;
+}
+.div1h1 {
+  font-size: 70px;
+  animation: colorChanger 10s infinite ease-in-out;
+}
+@keyframes colorChanger {
+  0% {
+    color: aqua;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: crimson;
+  }
+  80% {
+    color: chartreuse;
+  }
+  100% {
+    color: rgb(255, 0, 170);
+  }
+}
+.div2P {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+.myDiv3 {
+  background-color: aqua;
+  width: 35%;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: antiquewhite;
+  animation: colorChangerDate 10s infinite ease-in-out;
+  border-radius: 10px;
+}
+@keyframes colorChangerDate {
+  0% {
+    background-color: aqua;
+  }
+  20% {
+    background-color: blue;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: crimson;
+  }
+  80% {
+    background-color: chartreuse;
+  }
+  100% {
+    background-color: rgb(255, 0, 170);
+  }
+}
+.div4p1 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+.div4p2 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.div4p3 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: rgb(235, 8, 8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.div4p4 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: rgb(235, 8, 8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.div4p5 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: rgb(235, 8, 8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.div4p6 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: rgb(235, 8, 8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.div4p7 {
+  width: 50%;
+  margin: auto 27%;
+  background-color: rgb(235, 8, 8);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
